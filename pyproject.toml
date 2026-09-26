@@ -1,0 +1,18 @@
+[project]
+name = "inferlace"
+version = "0.1.0"
+description = "One model inference engine written by hand for a RTX 4080 Lovelace GPU architecture"
+authors = [
+    { name = "Oliver Wilkins", email = "okwilkins@googlemail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "torch>=2.0.0",
+    "notebook>=7.0.0",
+    "numpy>=2.5",
+    "tiktoken>=0.14.0",
+    "matplotlib>=3.11.0",
+]
+
+[dependency-groups]
+dev = ["ruff", "ty"]
