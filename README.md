@@ -12,3 +12,21 @@ My goals here are to:
     - GPU profiling
     - LLM internals
 
+## Getting Started
+
+### Enter the Dev Shell
+
+All tools (Python 3.14, uv, ruff, ty) come from Nix.
+
+```bash
+nix develop --command $SHELL
+```
+
+### Sync the Project
+
+```bash
+uv sync
+```
+
+This creates `.venv` and installs the project (editable).
+
