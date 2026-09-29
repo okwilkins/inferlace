@@ -30,3 +30,13 @@ uv sync
 
 This creates `.venv` and installs the project (editable).
 
+### Downloading the Model Weights
+
+To download the model weights, enter the dev shell and run:
+
+```bash
+download-model
+```
+
+This will save the model into the `models/` directory.
+
