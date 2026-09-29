@@ -1,5 +1,5 @@
 {
-  description = "One model inference engine written by hand for a RTX 4080 Lovelace GPU architecture";
+  description = "One model inference engine written by hand for RTX 4080 Lovelace GPU architecture";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
