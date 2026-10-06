@@ -26,9 +26,9 @@
           text = ''
             mkdir -p models/Qwen3.5-9B
             exec hf download \
-              Qwen/Qwen3.5-9B \
-              --revision c202236235762e1c871ad0ccb60c8ee5ba337b9a \
-              --local-dir models/Qwen3.5-9B \
+              lovedheart/Qwen3.5-9B-FP8 \
+              --revision 5d77dcb2e2c606bc261b5b8e946a67781f18d733 \
+              --local-dir models/Qwen3.5-9B-FP8 \
               "$@"
           '';
         };
